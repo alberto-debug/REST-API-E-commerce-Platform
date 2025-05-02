@@ -28,8 +28,8 @@ A secure and scalable **Spring Boot REST API** backend for an eCommerce platform
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/yourusername/ecommerce-rest-api.git
-cd ecommerce-rest-api
+git clone git@github.com:alberto-debug/REST-API-E-commerce-Platform.git
+cd REST-API-E-commerce-Platform
 mvn spring-boot:run
 ```
 
