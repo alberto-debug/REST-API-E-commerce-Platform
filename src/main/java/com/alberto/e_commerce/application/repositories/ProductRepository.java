@@ -1,4 +1,8 @@
 package com.alberto.e_commerce.application.repositories;
 
-public interface ProductRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.alberto.e_commerce.application.entities.Product;
+
+public interface ProductRepository extends JpaRepository<Long, Product> {
 }
