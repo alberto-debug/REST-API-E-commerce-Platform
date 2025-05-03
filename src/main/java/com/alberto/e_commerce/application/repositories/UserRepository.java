@@ -1,4 +1,8 @@
 package com.alberto.e_commerce.application.repositories;
 
-public interface UserRepository {
+import org.springframework.data.repository.CrudRepository;
+
+import com.alberto.e_commerce.application.entities.User;
+
+public interface UserRepository extends CrudRepository<Long, User> {
 }
