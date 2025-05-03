@@ -1,4 +1,8 @@
 package com.alberto.e_commerce.application.repositories;
 
-public interface CategoryRepository {
+import org.springframework.data.repository.CrudRepository;
+
+import com.alberto.e_commerce.application.entities.Category;
+
+public interface CategoryRepository extends CrudRepository<Long, Category> {
 }
